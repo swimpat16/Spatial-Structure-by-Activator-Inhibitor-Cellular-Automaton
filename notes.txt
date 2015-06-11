@@ -1,0 +1,22 @@
+R1: 1, 3, 5, 7, 9, 11
+
+
+R2: 2, 4, 6, 8, 10, 12
+
+
+h : 0, 3, 5, -3, -5
+
+entropy = disorder
+
+when R1 low, if further h gets from 0, the less entropy you get
+R1 low, R2 high, creates striping, h distorts striping at 5
+R1 and R2 1 away, causes large patterns
+as R2 is high, h does less
+R1 high, creates less interesting patterns
+R1 low, higher entropy
+
+entropy spikes at R1 and at R2
+	mutual info dips at these points
+	
+corolation peaks at boundary between R1 and R2 and R2 and rest of map 
+corrolation moves up and down with h

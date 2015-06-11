@@ -1,0 +1,8 @@
+Description:
+	In this project, we created code for the simulation of the creation of spatial structure by activator / Inhibitor Cellular Automaton. The simulation was written in C++ by Patrick Elam and Alex Chaloux.
+
+Files:
+	convert_script.cc: C++ script used to convert all of the .pgm images to .jpg images using the linux "convert" command
+	Data Manipulation.xlsm: Contained Excel macros to convert the .csv outputs from simulator output to .xls files. Also contained macros to create charts from output data contained in these new .xls files.
+Usage:
+	lab2
